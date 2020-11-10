@@ -1,0 +1,851 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <title>San Joaquin Valley Town Hall</title>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.css">
+    <!-- JavaScript HTML requirements -->
+	<script src="http://code.jquery.com/jquery-1.6.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.0b3/jquery.mobile-1.0b3.min.js"></script>
+</head>
+
+<body>
+	
+	<!--home page-->
+<div data-role="page" id="home">
+    <header data-role="header" data-theme="e">
+        <h1>The Halloween Store</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="d" class="ui-btn-active">Home</a></li>
+			<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+		</ul>
+		</div>
+    </header>
+    <section data-role="content">
+        <h3>Please come in and stay awhile...</h3>
+       
+        <p>I started this web site because Halloween has always been my
+            	favorite holiday.<br> But during the last year, I started selling
+            	some of my favorite Halloween Products,<br> and they've become quite
+            	a hit.</p>    
+            	
+       	 
+        
+        <h3>Product of the week</h3>
+        <img src="images/cat1.jpg" alt="Cat">
+    	
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--product page-->
+<div data-role="page" id="Products">
+    <header data-role="header" data-theme="e">
+        <h1>The Halloween Store</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+			<li><a href="#Products" data-icon="star" data-theme="d" class="ui-btn-active">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+		</ul>
+	</div>
+    </header>
+      
+    <section data-role="content">
+		<h3>Our Product Categories</h3>	
+        <ul data-role="listview" data-split-icon="gear" data-inset="true">
+            <li>
+                <a href="#props">
+                    <h4>Props</h4>
+                        
+                                 
+                </a>
+                <a href="#buytix" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+            </li>
+            <li>
+                <a href="#costumes">
+                	<h4>Costumes</h4>
+                	
+                </a>
+                <a href="buytix.html" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+            </li>
+            <li>
+                <a href="#specialfx">
+                	<h4>Special FX</h4>
+                	
+                </a>
+                <a href="buytix.html" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+            </li>
+            <li>
+                <a href="#masks">
+                	<h4>Masks</h4>
+                	
+                </a>
+                <a href="buytix.html" data-rel="dialog" data-transition="pop">Buy Tickets</a>
+            </li>
+        </ul>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--contact page-->
+<div data-role="page" id="contact">
+    <header data-role="header" data-theme="e">
+        <h1>The Halloween Store</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+			<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="d" class="ui-btn-active">Join our List</a></li>
+		</ul>
+	</div>
+    </header>
+      
+    <section data-role="content" style="text-align:center;">
+        <strong>Phone</strong><br>
+        <a href="tel:7408675309">740.867.5309</a><br><br>
+        
+        <strong>Mail</strong><br>
+        The Halloween Store<br>
+        P.O. Box 43812<br>
+        Coshocton OH, 43812<br><br>
+        
+        <strong>Email</strong><br>
+        <a href="mailto:mbullock@zanestate.edu">mbullock@zanestate.edu</a><br><br>
+        
+        
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--buy page-->
+<div data-role="page" id="buytix">
+    <header data-role="header" data-theme="e">
+        <h1>Buy Tickets</h1>
+    </header>
+    <section data-role="content">
+    	<h3>Ticket packages and prices</h3>
+        <p><strong>Season ticket: $95</strong></p>
+        <p>Admission to all six lectures, plus one single-lecture guest ticket good for any one lecture</p>
+        <p><strong>Patron ticket: $200</strong></p>
+        <p>Admission to all six lectures, plus three single-lecture guest tickets and recognition in annual brochure</p>
+        <p><strong>Single lecture: $25</strong></p>
+        <p>Must be purchased at the box office on the day of the lecture</p>
+        
+        <a href="#" data-role="button" data-rel="back">Cancel</a>
+        <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Ticket</a>
+    </section>
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--props page-->
+<div data-role="page" id="props">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Props </h3>
+    <ul data-role="listview" data-split-icon="gear" data-inset="true">
+            <li>
+                <a href="#cat">
+                    <h4>Deranged Cat</h4>
+                      <img src="images/cat1.jpg" alt="Cat">   
+                                 
+                </a>
+                
+            </li>
+            <li>
+                <a href="#bats">
+                	<h4>Flying Bats</h4>
+                	 <img src="images/bats.gif" alt="Bats">
+                </a>
+            </li>
+            <li>
+                <a href="#rat">
+                	<h4>Special FX</h4>
+                	 <img src="images/rat1.jpg" alt="Rats">
+                </a>      
+            </li>
+            <li>
+                <a href="#lights">
+                	<h4>Strobe Light</h4>
+                	 <img src="images/strobe1.jpg" alt="strobe">
+                </a>
+                
+            </li>
+        </ul>
+   <p><a href="#Products" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--cat-->
+<div data-role="page" id="cat">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>20" Deranged Cat </h3>
+    <img src="images/cat1.jpg" alt="Cat">   
+    <p>This cat provides it's own light and is perfect<br>
+    	for backyard haunting.<br>
+    	<br><b>Price:</b> $19.99
+    	
+    </p>
+    
+   <p><a href="#props" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--bat-->
+<div data-role="page" id="bats">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>bats</h3>
+    <img src="images/bats.gif" alt="Bats"> 
+    <p>You'll go batty for this item!<br>
+    	<br><b>Price:</b> $10.99
+    	
+    </p>
+    
+   <p><a href="#props" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--rat-->
+<div data-role="page" id="rat">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>20" rat </h3>
+    <img src="images/rat1.jpg" alt="rats"> 
+    <p>this looks a bit ratty.<br>
+    	<br><b>Price:</b> $1.00
+    	
+    </p>
+    
+   <p><a href="#props" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--lights-->
+<div data-role="page" id="lights">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Strobe light </h3>
+    <img src="images/strobe1.jpg" alt="strobe lights"> 
+    <p>Try not to go blind with this new flashy item!<br>
+    	<br><b>Price:</b> $30.99
+    	
+    </p>
+    
+   <p><a href="#props" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--costumes page-->
+<div data-role="page" id="costumes">
+    <header data-role="header" data-theme="e">
+        <h1>The Halloween Town</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+			<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="d">Contact Us</a></li>
+		</ul>
+	</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Costumes</h3>
+		
+		 <ul data-role="listview" data-split-icon="gear" data-inset="true">
+            <li>
+                <a href="#cheif">
+                    <h4>Master Cheif Costume</h4>
+                      <img src="images/mastercheif.jpg" alt="cheif">   
+                                 
+                </a>
+                
+            </li>
+            <li>
+                <a href="#babe">
+                	<h4>Army babe Costume</h4>
+                	 <img src="images/armybabe.jpg" alt="babeh">
+                </a>
+            </li>
+            <li>
+                <a href="#star">
+                	<h4>Star Wars Costume</h4>
+                	 <img src="images/starwars.jpg" alt="starwars">
+                </a>      
+            </li>
+            <li>
+                <a href="#cre">
+                	<h4>Assasins Creed Costume</h4>
+                	 <img src="images/creed.jpg" alt="creed">
+                </a>
+                
+            </li>
+        </ul>
+		<p><a href="#Products" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+    </section>
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--cheif-->
+<div data-role="page" id="cheif">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Master Cheif </h3>
+    <img src="images/mastercheif.jpg" alt="cheif"> 
+    <p>Become master cheif with this cool looking set up!<br>
+    	<br><b>Price:</b> $150.99
+    	
+    </p>
+    
+   <p><a href="#costumes" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--babe-->
+<div data-role="page" id="babe">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Army Babe </h3>
+    <img src="images/armybabe.jpg" alt="armybabe"> 
+    <p>For all you rowdy boys out there, here's a gift to get yo girl!<br>
+    	<br><b>Price:</b> $80.99
+    	
+    </p>
+    
+   <p><a href="#costumes" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--starwars-->
+<div data-role="page" id="star">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Star wars </h3>
+    <img src="images/starwars.jpg" alt="cheif"> 
+    <p>An amazing star wars costume!<br>
+    	<br><b>Price:</b> $300.00
+    	
+    </p>
+    
+   <p><a href="#costumes" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--creed-->
+<div data-role="page" id="cre">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>assasins Creed </h3>
+    <img src="images/creed.jpg" alt="creed"> 
+    <p>One of the best costumes I have seen!<br>
+    	<br><b>Price:</b> $500.99
+    	
+    </p>
+    
+   <p><a href="#costumes" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--specialfx page-->
+<div data-role="page" id="specialfx">
+    <header data-role="header" data-theme="e">
+        <h1>The Halloween Store</h1>
+        <div data-role="navbar">
+		<ul>
+			<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+			<li><a href="#Products" data-icon="star" data-theme="d" class="ui-btn-active">Products</a></li>
+            <li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+		</ul>
+	</div>
+    </header>
+      
+    <section data-role="content">
+		<h3>Special FX</h3>	
+       <ul data-role="listview" data-split-icon="gear" data-inset="true">
+            <li>
+                <a href="#blood">
+                    <h4>Fake Blood</h4>
+                      <img src="images/blood.jpg" alt="Cat">   
+                                 
+                </a>
+                
+            </li>
+            <li>
+                <a href="#hand">
+                	<h4>Fake Hand</h4>
+                	 <img src="images/hand.jpg" alt="Bats">
+                </a>
+            </li>
+           <li>
+                <a href="#leg">
+                    <h4>Fake leg</h4>
+                      <img src="images/leg.jpg" alt="Cat">   
+                                 
+                </a>
+                
+            </li>
+            <li>
+                <a href="#eye">
+                	<h4>Fake eye</h4>
+                	 <img src="images/eye.jpg" alt="Bats">
+                </a>
+            </li>
+        </ul>
+        <p><a href="#Products" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+      </section>
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--blood-->
+<div data-role="page" id="blood">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Fake Blood </h3>
+    <img src="images/blood.jpg" alt="blood"> 
+    <p>Look like you're really spewing blood!<br>
+    	<br><b>Price:</b> $10.99
+    	
+    </p>
+    
+   <p><a href="#specialfx" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--hand-->
+<div data-role="page" id="hand">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Fake Hand</h3>
+    <img src="images/hand.jpg" alt="fakehand"> 
+    <p>Such creepy, much wow!<br>
+    	<br><b>Price:</b> $10.00
+    	
+    </p>
+    
+   <p><a href="#specialfx" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+    <!--leg-->
+    <div data-role="page" id="leg">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Fake leg</h3>
+    <img src="images/leg.jpg" alt="fakeleg"> 
+    <p>oooh nice<br>
+    	<br><b>Price:</b> $5.00
+    	
+    </p>
+    
+   <p><a href="#specialfx" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+    </div>
+    
+    <!--eye-->
+    <div data-role="page" id="eye">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Fake eye</h3>
+    <img src="images/eye.jpg" alt="fakeeye"> 
+    <p>creepy!<br>
+    	<br><b>Price:</b> $10.00
+    	
+    </p>
+    
+   <p><a href="#specialfx" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+    </div>
+    
+<!--masks-->
+<div data-role="page" id="masks">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Masks </h3>
+    <ul data-role="listview" data-split-icon="gear" data-inset="true">
+            <li>
+                <a href="#jig">
+                    <h4>jigsaw mask</h4>
+                      <img src="images/jigsaw.jpg" alt="jigmask">   
+                                 
+                </a>
+                
+            </li>
+            <li>
+                <a href="#ven">
+                	<h4>Guy Fawkes mask</h4>
+                	 <img src="images/ven.jpg" alt="vendettamask">
+                </a>
+            </li>
+            <li>
+                <a href="#sad">
+                	<h4>Sad mask</h4>
+                	 <img src="images/sad.jpg" alt="sadmask">
+                </a>      
+            </li>
+            <li>
+                <a href="#gas">
+                	<h4>Gas Mask</h4>
+                	 <img src="images/gas.jpg" alt="gasmask">
+                </a>
+                
+            </li>
+        </ul>
+   <p><a href="#Products" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+</div>
+
+<!--jigsaw mask-->
+<div data-role="page" id="jig">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Jigsaw Mask</h3>
+    <img src="images/jigsaw.jpg" alt="jigsaw"> 
+    <p>this one makes me cringe!<br>
+    	<br><b>Price:</b> $40.00
+    	
+    </p>
+    
+   <p><a href="#masks" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--vendetta mask-->
+<div data-role="page" id="ven">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Guy Fawkes Mask</h3>
+    <img src="images/ven.jpg" alt="vendetta"> 
+    <p>remember remember this 5th of november!<br>
+    	<br><b>Price:</b> $50.00
+    	
+    </p>
+    
+   <p><a href="#masks" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--sad mask-->
+<div data-role="page" id="sad">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Sad Mask</h3>
+    <img src="images/sad.jpg" alt="sadmask"> 
+    <p>sad mask<br>
+    	<br><b>Price:</b> $60.00
+    	
+    </p>
+    
+   <p><a href="#masks" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+   
+<!--gas mask-->
+<div data-role="page" id="gas">
+    <header data-role="header" data-theme="e">
+    	<h1>The Halloween Store</h1>
+    	<div data-role="navbar">
+			<ul>
+				<li><a href="#home" data-icon="home" data-theme="d">Home</a></li>
+				<li><a href="#Products" data-icon="star" data-theme="d">Products</a></li>
+            	<li><a href="#contact" data-icon="grid" data-theme="d">Join our List</a></li>
+			</ul>
+		</div>
+    </header>
+    
+    <section data-role="content">
+    	<h3>Gas Mask</h3>
+    <img src="images/gas.jpg" alt="gas"> 
+    <p>better get those stats ready for some plague city!<br>
+    	<br><b>Price:</b> $80.00
+    	
+    </p>
+    
+   <p><a href="#masks" data-role="button" data-rel="back" data-theme="d">Back to previous page</a></p>
+   <a href="#" data-role="button" data-rel="back" data-theme="d" >Buy Now</a>
+    </section>
+       
+    <footer data-role="footer" data-theme="e">
+        <h4>&copy; 2014</h4>
+    </footer>
+   </div>
+
+
+
+
+
+
+
+</body>
+</html>
