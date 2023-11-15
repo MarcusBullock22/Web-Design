@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        #scroll-container {
+            width: 300px; /* Set the desired width */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 200vh; /* Set the desired height for the loop */
+        }
+        .scroll-item {
+            width: 300px; /* Set the desired width */
+            height: 200px; /* Set the desired height */
+            border: 2px solid #000; /* Border around each image */
+            margin: 10px; /* Spacing between images */
+        }
+    </style>
+</head>
+<body>
+    <div id="scroll-container">
+        <!-- Images will be loaded dynamically here -->
+    </div>
+
+    <script>
+        const container = document.getElementById("scroll-container");
+
+        let images = [
+            "DropBoxLinks", 
+            // Add more image filenames here
+        ];
+
+        function loadAndScrollImages() {
+            let currentIndex = 0;
+
+            function scrollImages() {
+                const img = new Image();
+                img.className = "scroll-item";
+                img.src = images[currentIndex];
+                container.appendChild(img);
+
+                currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+            }
+
+            // Set an interval to continuously scroll the images
+            const scrollInterval = 1000; // Adjust the scroll speed (3 seconds in this example)
+            setInterval(() => {
+                // Remove the first image as it scrolls out of view
+                if (container.children.length > images.length) {
+                    container.removeChild(container.children[0]);
+                }
+                scrollImages();
+            }, scrollInterval);
+        }
+
+        // Call the function to load and continuously scroll through images
+        loadAndScrollImages();
+    </script>
+</body>
+</html>
